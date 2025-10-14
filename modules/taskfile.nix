@@ -21,6 +21,7 @@ in
               lib.types.submodule {
                 options = {
                   cmd = lib.mkOption { type = lib.types.str; };
+                  desc = lib.mkOption { type = lib.types.str; };
                 };
               }
             );
@@ -30,7 +31,6 @@ in
         runner = {
           name = lib.mkOption {
             type = lib.types.str;
-            default = "hamam";
           };
           config = lib.mkOption {
             type = lib.types.pathInStore;
