@@ -1,6 +1,4 @@
 { inputs, ... }:
-
-{ inputs, ... }:
 {
   flake.modules.nixos.rpi5 = {
     imports = [

@@ -7,6 +7,7 @@
     home-manager.url = "github:nix-community/home-manager";
     nixos-raspberrypi.url = "github:nvmd/nixos-raspberrypi/main";
     disko.url = "github:nix-community/disko";
+    microvm.url = "github:microvm-nix/microvm.nix";
   };
 
   outputs =
